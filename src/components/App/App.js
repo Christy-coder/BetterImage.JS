@@ -12,7 +12,7 @@ class App extends Component {
     }
     this.updateOnce = this.updateOnce.bind(this);
   }
-
+  // once invoked will update state once
   updateOnce(){
     this.setState({once: true});
   }

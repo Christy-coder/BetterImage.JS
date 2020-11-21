@@ -56,7 +56,7 @@ export default function BetterImage(props) {
   ////////////////* Convert Image Format to WEBP Functionality */////////////////
   function convertImg(source, quality){
     let imageName = extractName(source);
-    
+    // if instance is false than invoke line 61 which is converted to true
     if(instance === false){
       instanceFunc()
 
